@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Encuentra lo que más te gusta!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/button05"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_hamburguesa"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/hamburguesa" />
+
+                <ImageButton
+                    android:id="@+id/button06"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_hamburguesa_big"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/hamburguesa_big" />
+
+                <ImageButton
+                    android:id="@+id/button07"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_hamburguesa_black"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/hamburguesa_black" />
+
+                <ImageButton
+                    android:id="@+id/button08"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_hamburguesa_ranchera"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/hamburguesa_ranchera" />
+
+                <ImageButton
+                    android:id="@+id/button09"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_hamburguesa_vegana"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/hamburguesa_vegana" />
+
+                <ImageButton
+                    android:id="@+id/button10"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_pizza"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/pizza" />
+
+                <ImageButton
+                    android:id="@+id/button11"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_pizza_aceitunas"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/pizza_aceitunas" />
+
+                <ImageButton
+                    android:id="@+id/button12"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_pizza_gourmet"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/pizza_gourmet" />
+
+                <ImageButton
+                    android:id="@+id/button13"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_pizza_pepperoni"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/pizza_pepperoni" />
+
+                <ImageButton
+                    android:id="@+id/button14"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_sandwich"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/sandwich" />
+
+                <ImageButton
+                    android:id="@+id/button15"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_sandwich_pepinillos"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/sandwich_pepinillos" />
+
+                <ImageButton
+                    android:id="@+id/button16"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_papas_fritas"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/papas_fritas" />
+
+                <ImageButton
+                    android:id="@+id/button17"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_papas_fritas_cascos"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/papas_fritas_cascos" />
+
+                <ImageButton
+                    android:id="@+id/button18"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_soda"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/soda" />
+
+                <ImageButton
+                    android:id="@+id/button19"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/naranja_oscuro"
+                    android:contentDescription="boton_malteada_fresa"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/malteada_fresa" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/text_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:id="@+id/text_descripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:id="@+id/text_precio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/naranja_oscuro"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

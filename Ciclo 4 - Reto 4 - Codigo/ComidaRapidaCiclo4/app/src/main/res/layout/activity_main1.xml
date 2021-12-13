@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" >
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="410dp"
+                            android:layout_height="273dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/publicidad_01" />
+
+                        <Space
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="410dp"
+                            android:layout_height="273dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/publicidad_02" />
+
+                        <Space
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="410dp"
+                            android:layout_height="273dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/publicidad_03" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:gravity="bottom|center"
+                            android:text="Todo el menú en tu mano"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/button01"
+                            android:layout_width="320dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/naranja_claro"
+                            android:contentDescription="menu"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/menu" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:gravity="bottom|center"
+                            android:text="Cupones"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/button02"
+                            android:layout_width="320dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/naranja_medio"
+                            android:contentDescription="cupon"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/cupon" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:gravity="bottom|center"
+                            android:text="Encuentranos"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/button03"
+                            android:layout_width="320dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/naranja_oscuro"
+                            android:contentDescription="ubicacion"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/ubicacion" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp" />
+
+                        <Button
+                            android:id="@+id/button04"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/naranja_mas_claro"
+                            android:text="Acerca de Go! FOOD"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

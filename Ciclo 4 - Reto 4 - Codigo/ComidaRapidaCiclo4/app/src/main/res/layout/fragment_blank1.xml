@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aeropuerto el Dorado"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calle 26 #103-9 Fontibon.\nHorarios: Lunes a Domingos: 11:00 am – 10:00 pm.  \nTeléfono: 3015555555.\n"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Belaire"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Carrera 7 # 153 – 74.  \nHorarios: Lunes a Domingos: 11:00 am – 10:00 pm.  \nTeléfono: 3015555555.\n"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cafam Floresta"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Avenida Carrera 68 # 90-80.  \nHorarios: Lunes a Domingos:  11:00 am – 10:00 pm.  \nTeléfono: 3015555555.\n"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calle 80"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calle 80 # 14-44 / 46 Lc.3 Y 4.  \nHorarios:  Lunes a Domingos: 11:00 am – 10:00 pm.  \nTeléfono: 3015555555.\n"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calle 106"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Avenida 19 # 108-15.  \nHorarios: Lunes a Domingos:  11:00 am – 10:00 pm.  \nTeléfono: 3015555555.\n"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calle 145"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Avenida 19 Con 147.  \nHorarios: Lunes a Domingos:  11:00 am – 10:00 pm.  \nTeléfono:3015555555.\n"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CC Andino"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Carrera 40 # 25 B 15.  \nHorarios: Lunes a Domingos: 11:00 am – 10:00 pm.  \nTeléfono: 3015555555.\n"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CC Atlantis"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Carrera 12 # 83-02.  \nHorarios:  Lunes a Domingos:  11:00 am – 10:00 pm.  \nTeléfono: 3015555555.\n"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CC Centro Mayor"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calle 38a Sur # 34c 50.  \nHorarios: Lunes a Domingos: 11:00 am – 10:00 pm.  \nTeléfono: 3015555555.\n"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CC Ciudad Salitre"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Carrera 68 # 40-30.  \nHorarios: Lunes a Domingos:  11:00 am a 10:00 pm.  \nTeléfono: 3015555555.\n"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CC Plaza Central"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Carrera 62 Y 65 Con Avenida Calle 13 Espacio No. 3 55.  \nHorarios: Lunes a Domingos: 11:00 am – 10:00 pm.  \nTeléfono: 3015555555.\n"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

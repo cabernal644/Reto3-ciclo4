@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option00"
+        android:title="Iniciar Sesión" />
+
+    <item
+        android:id="@+id/option01"
+        android:title="Menú" />
+
+    <item android:id="@+id/option02"
+        android:title="Cupones" />
+
+    <item android:id="@+id/option03"
+        android:title="Ubicaciones" />
+
+    <item android:id="@+id/option04"
+        android:title="Acerca de..." />
+</menu>
